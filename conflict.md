@@ -1,3 +1,3 @@
 ma kirjutan teksti
 selles fafilis peab olema tekst
-tekst
+tudeng 2 kirjutas selle rea
