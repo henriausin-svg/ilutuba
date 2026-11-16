@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 120px;
+    background-color: #ebe5db;
+    color: #4e4c49;
+    font-family: Georgia, serif;
+
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+
+    color: #51483f;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #51483f;
+    font-size: 20px;
+
+    padding: 12px 25px;
+    border: 2px solid #d6cec5;
+}
+
+nav a:hover {
+    background-color: #afa99f;
+}
+
+
+.social-media {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 5px;
+}
+
+.social-button {
+    width: 75px;
+    height: 75px;
+
+    border: 2px solid rgb(173, 166, 153);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.social-button img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.social-button:hover {
+    background-color: #e8e0d5;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.gallery {
+    flex: 1;
+    height: 600px;
+    border: 5px solid #ddd8d2;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.map {
+    width: 100%;
+    height: 350px;
+
+    border: 5px solid #ddd8d2;
+    overflow: hidden;
+}
+
+.map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.address {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.address h3 {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.address p {
+    font-size: 25px;
+    margin: 7px 0;
+}
+
+
+.price-list {
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+
+    border: 3px solid #b3b1af;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.price-list h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 12px 5px;
+    border-bottom: 1px solid #8b7967;
+}
+
+
+.price-item p {
+    font-size: 18px;
+    margin: 5px 0;
+}
